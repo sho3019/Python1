@@ -1,0 +1,40 @@
+{
+    "students":[
+        {
+            "id": "001",
+            "name": "Takeshi Gouda",
+            "japanese": 30,
+            "mathematics": 30,
+            "science": 70,
+            "social_studies": 84,
+            "english": 50
+        },
+        {
+            "id": "002",
+            "name": "Nobita Nobi",
+            "japanese": 10,
+            "mathematics": 4,
+            "science": 8,
+            "social_studies": 23,
+            "english": -4
+        },
+        {
+            "id": "003",
+            "name": "Suneo Honekawa",
+            "japanese": 70,
+            "mathematics": 64,
+            "science": 53,
+            "social_studies": 50,
+            "english": 47
+        },
+        {
+            "id": "001",
+            "name": "Hidetoshi Dekisugi",
+            "japanese": 90,
+            "mathematics": 100,
+            "science": 80,
+            "social_studies": 120,
+            "english": 130
+        }
+    ]
+}
