@@ -1,0 +1,12 @@
+Eiichiro Senzyo All check passed
+Takeshi Gouda 001  is not unique
+Nobita Nobi "english" is not valid value
+Suneo Honekawa 003  is not unique
+Hidetoshi Dekisugi "social_studies" is not valid value
+Hidetoshi Dekisugi "english" is not valid value
+Yamcha All check passed
+Goku Son 001  is not unique
+Vegeta All check passed
+Frieza 003  is not unique
+Frieza "science" is not valid value
+Cell All check passed
