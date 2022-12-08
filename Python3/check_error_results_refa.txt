@@ -1,0 +1,26 @@
+1 subject type is not string
+1 Room name must be ['1st', '2nd']
+1 name type is not string
+1 100 is not type string
+TakeshiGoda Room name must be ['1st', '2nd']
+TakeshiGoda 001  is not unique
+TakeshiGoda "japanese" is not type integer
+1111112 Room name must be ['1st', '2nd']
+1111112 name type is not string
+1111112 "english" is not valid value
+Suneo Honekawa Room name must be ['1st', '2nd']
+Suneo Honekawa name is not match name
+Suneo Honekawa 3 is not type string
+Hidetoshi_Dekisugi Room name must be ['1st', '2nd']
+Hidetoshi_Dekisugi name is not match name
+Hidetoshi_Dekisugi "social_studies" is not valid value
+Hidetoshi_Dekisugi "english" is not valid value
+Yamcha__ subject type is not string
+Yamcha__ name is not match name
+Yamcha__ 100 is not type string
+GokuSon 001  is not unique
+Vegeta All check passed
+FriezaForm3 name is not match name
+FriezaForm3 3 is not type string
+FriezaForm3 "science" is not valid value
+Cell All check passed

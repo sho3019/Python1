@@ -1,0 +1,102 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "PyJsonValidate",
+    "description": "sample json for json validate",
+    "type": "object",
+    "properties":{
+        "name":{ 
+        
+            "type":"string",
+            "enum":[
+                "1st",
+                "2nd"
+            ]
+            
+        }
+    },
+    "teacher":{
+        "type":"object",
+        "properties":{
+            "id":{
+                "type":"string"
+            },
+            "name":{
+                "type":"string",
+                "pattern": "^[a-zA-Z]+$"
+            },
+            "subject":{
+                "type":"string"
+            }
+        }
+    },
+
+
+    "students":{
+        "type": "array",
+        "minItems":0,
+        "maxItems":5,
+        "items":{
+            "type":"object",
+            "properties":{
+                "name":{
+                    "type":"string",
+                    "pattern": "^[a-zA-Z]+$"
+                
+                },
+                "id":{
+                    
+                    "type":"string"
+                    
+                }
+                
+            }
+        }
+    },
+    "score":{
+        "type":"object",
+        "properties":{
+            "japanese":{
+                "type":"integer",
+                "minimum": 0,
+                "maximum": 100
+            },
+            "mathematics":{
+                "type":"integer",
+                "minimum": 0,
+                "maximum": 100
+            },
+            "science":{
+                "type":"integer",
+                "minimum": 0,
+                "maximum": 100
+            },
+            "social_studies":{
+                "type":"integer",
+                "minimum": 0,
+                "maximum": 100
+            },
+            "english":{
+                "type":"integer",
+                "minimum": 0,
+                "maximum": 100
+            }    
+            
+        }
+    },
+    "id_unique":{
+        "type": "array",
+        "minItems":0,
+        "maxItems":10,
+        "items":{
+            "type":"object",
+            "properties":{
+                "id_uni":{
+                    "type":"array",
+                    "uniqueItems": true
+                }
+            }
+        }
+        
+    }
+
+}

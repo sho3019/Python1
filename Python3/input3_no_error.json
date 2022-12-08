@@ -1,0 +1,114 @@
+{
+    "room":[
+        {
+            "name": "1st",
+            "teacher":
+            {
+                "id": "100",
+                "name": "EiichiroSenzyo",
+                "subject": "social_studies"
+            },
+            "students":[
+                {
+                    "id": "001",
+                    "name": "TakeshiGouda",
+                    "score": {
+                        "japanese": 30,
+                        "mathematics": 30,
+                        "science": 70,
+                        "social_studies": 84,
+                        "english": 50
+                    }
+                },
+                {
+                    "id": "002",
+                    "name": "NobitaNobi",
+                    "score": {
+                        "japanese": 10,
+                        "mathematics": 4,
+                        "science": 8,
+                        "social_studies": 23,
+                        "english": 4
+                    }
+                },
+                {
+                    "id": "003",
+                    "name": "SuneoHonekawa",
+                    "score": {
+                        "japanese": 70,
+                        "mathematics": 64,
+                        "science": 53,
+                        "social_studies": 50,
+                        "english": 47
+                    }
+                },
+                {
+                    "id": "004",
+                    "name": "HidetoshiDekisugi",
+                    "score": {
+                        "japanese": 90,
+                        "mathematics": 100,
+                        "science": 80,
+                        "social_studies": 100,
+                        "english": 100
+                    }
+                }
+            ]
+        },
+        {
+            "name": "2nd",
+            "teacher":
+            {
+                "id": "101",
+                "name": "Yamcha",
+                "subject": "English"
+            },
+            "students":[
+                {
+                    "id": "005",
+                    "name": "GokuSon",
+                    "score": {
+                        "japanese": 10,
+                        "mathematics": 4,
+                        "science": 0,
+                        "social_studies": 23,
+                        "english": 21
+                    }
+                },
+                {
+                    "id": "006",
+                    "name": "Vegeta",
+                    "score": {
+                        "japanese": 10,
+                        "mathematics": 4,
+                        "science": 8,
+                        "social_studies": 4,
+                        "english": 4
+                    }
+                },
+                {
+                    "id": "007",
+                    "name": "Frieza",
+                    "score": {
+                        "japanese": 53,
+                        "mathematics": 64,
+                        "science": 78,
+                        "social_studies": 24,
+                        "english": 47
+                    }
+                },
+                {
+                    "id": "008",
+                    "name": "Cell",
+                    "score": {
+                        "japanese": 90,
+                        "mathematics": 100,
+                        "science": 80,
+                        "social_studies": 43,
+                        "english": 27
+                    }
+                }
+            ]
+        }
+    ]
+}
